@@ -25,8 +25,7 @@ Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como fic
 
 ## 🎨 Layout
 
-<img src="./src/assets/images/screenshots/desktop.png" alt="Desktop" title="Desktop"> <img src="./src/assets/images/screenshots/mobile.png" alt="Mobile" title="Mobile">
-
+<img width="600" src="./src/assets/images/hotel-service-page.png" alt="Desktop" title="Desktop">
 
 ## 🛠 Tecnologias e Ferramentas
 
