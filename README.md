@@ -20,6 +20,8 @@
 
 Este projeto é uma página principal de serviço de hotel feita em ReactJS e TailwindCSS.  
 
+Este projeto foi baseado em um tutorial do Youtube do canal [Tiago Matos](https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u). 
+
 Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como ficou a aplicação rodando no [Netlify].  
 
 
@@ -36,6 +38,7 @@ Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como fic
 - [React Icons](https://www.npmjs.com/package/react-icons)
 - [Vite](https://vitejs.dev/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Hero Icons](https://heroicons.dev/)
 
 Veja como ficou o arquivo [package.json](./package.json)
 
