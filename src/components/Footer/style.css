@@ -1,0 +1,35 @@
+@tailwind components; 
+
+@layer components {
+    .footer {
+        @apply border-t border-gray-200 ;
+    }
+
+    .footer-container {
+        @apply container max-w-5xl mx-auto px-4 py-8 flex items-center justify-between ;
+    }
+
+    .footer-logo {
+        @apply text-gray-400 font-black text-2xl ;
+    }
+
+    .footer-list {
+        @apply flex items-center gap-4 ;
+    }
+
+    .footer-link {
+        @apply text-lg font-semibold transition duration-100;
+    }
+
+    .footer-link.facebook {
+        @apply text-blue-800 hover:text-blue-600 ;
+    }
+
+    .footer-link.instagram {
+        @apply text-pink-800 hover:text-pink-600 ;
+     }
+
+     .footer-link.twitter {
+        @apply text-blue-400 hover:text-blue-300 ;
+     }
+}

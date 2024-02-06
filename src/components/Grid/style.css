@@ -1,0 +1,58 @@
+@tailwind components; 
+
+
+@layer components {
+    .grid-section {
+        @apply container max-w-5xl mx-auto px-4 ;
+    }
+
+    .grid-section-title {
+        @apply text-2xl text-center font-semibold ;
+    }
+
+    .grid-section-container {
+        height: auto;
+        height: 400px; 
+        @apply w-full grid grid-cols-4 grid-rows-2 gap-6 mt-8 mb-10 ; 
+    }
+
+    .grid-single {
+        @apply rounded-lg overflow-hidden relative; 
+    }
+
+    .grid-single .grid-single-image {
+        @apply object-cover w-full h-full ;
+    }
+
+    .grid-single .grid-single-text {
+        background-color: rgba(0,0,0,0.3);
+        width: 100%;
+        @apply absolute text-white bottom-0 pl-4 pb-4 pt-96 font-semibold ;
+    }
+
+
+    .grid-single.first {
+        @apply col-span-4 row-span-1 sm:col-span-2 sm:row-span-2 ;
+    }   
+
+    .grid-single.second {
+        @apply col-span-4  row-span-1 sm:col-span-2 ;
+    }
+
+    .grid-single.third { 
+        @apply col-span-4 sm:col-span-1 ;
+
+    }
+
+    .grid-single.fourth { 
+        @apply col-span-4 sm:col-span-1 ;
+    }
+}
+
+
+@media only screen and (max-width:640px) {
+    .grid-section-container { 
+        height: auto;
+        min-height: auto;
+    }
+}

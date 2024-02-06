@@ -1,0 +1,41 @@
+@tailwind components; 
+
+
+@layer components {
+    .featured-container {
+        @apply mx-auto container max-w-5xl px-4 py-10 text-gray-600;
+    }
+
+    .featured-flex {
+        @apply flex flex-col-reverse w-full sm:flex-row gap-4 ;
+    }
+
+    .featured-content {
+        @apply flex-grow sm:w-full ;
+    }
+
+    .featured-content-small {
+        @apply text-sm text-gray-400 font-semibold uppercase ;
+    }
+
+    .featured-content-title {
+        @apply text-2xl my-1 ;
+    }
+
+    .featured-content-review {
+        @apply text-sm text-gray-400 font-medium ;
+    }
+
+    .featured-content-text {
+        @apply text-sm font-normal mt-4 ;
+    }
+
+    .featured-button {
+        @apply py-2 px-4 mt-4 block mx-auto  sm:inline-flex sm:mx-0 items-center bg-orange-400 hover:bg-orange-500 rounded-md shadow text-base font-semibold text-yellow-900;
+    }
+
+    .featured-image {
+        background-image: url("../../assets/images/pexels-nino-souza-3379404.jpg");
+        @apply w-full min-h-40 bg-no-repeat bg-cover bg-bottom sm:max-w-96    ;
+    }
+}
