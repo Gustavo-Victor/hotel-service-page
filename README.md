@@ -32,9 +32,13 @@ Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como fic
 
 - [ReactJS](https://react.dev/)
 - [TailwindCSS (Vite)](https://tailwindcss.com/docs/guides/vite)
+- [PostCSS](https://postcss.org/)
+- [Autoprefixer](https://www.npmjs.com/package/autoprefixer)
 - [React Icons](https://www.npmjs.com/package/react-icons)
 - [Vite](https://vitejs.dev/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+
+Veja como ficou o arquivo [package.json](./package.json)
 
 
 ## 💻 Como usar
