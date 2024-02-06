@@ -22,7 +22,7 @@ Este projeto é uma página principal de serviço de hotel feita em ReactJS e Ta
 
 Este projeto foi baseado em um tutorial do Youtube do canal [Tiago Matos](https://www.youtube.com/watch?v=1eLaBow7Zbo&list=PLcoYAcR89n-r1m-tMfV4qndrRWpT_rb9u). 
 
-Clique [aqui](https://deluxe-parfait-b9bb0d.netlify.app/) para conferir como ficou a aplicação rodando no [Netlify].  
+Clique [aqui](https://remarkable-bienenstitch-3f7da2.netlify.app/) para conferir como ficou a aplicação rodando no [Netlify](https://app.netlify.com/).  
 
 
 ## 🎨 Layout
